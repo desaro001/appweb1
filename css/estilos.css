@@ -1,0 +1,73 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+header{
+	background-color: #E64A19;
+	color: white;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	
+}
+
+body {
+	font-size: 150%;
+	font-family: 'Playball', sans-serif;
+	text-align: justify;
+}
+
+header h1{
+	font-size: 150%;
+	padding: 5px 10px 5px;
+	text-transform: uppercase;
+	font-family: arial;
+}
+
+main{
+	display: block;
+	margin: 12% 5%;
+	padding: 0 5%; 
+	border-left: #FF5722 5px solid;
+	border-right: #FF5722 5px solid;
+}
+
+article.siglo{
+	margin: 1em 0;
+	background-color: #FFCCBC;
+	padding-bottom: 2em;
+} 
+
+article.siglo h1{
+	background-color: #FF5722;
+	color: white;
+	padding: 0 10px;
+}
+
+article.siglo article{
+	background-color: white;
+	margin: 1em 10%;
+	padding-bottom: 1em;
+}
+
+article.siglo article p{
+	padding-left: 1em;
+	padding-right: 1em;	
+}
+
+aside{
+	float: right;
+	border-left: #FF5722 5px solid;
+	padding: 20px;
+	margin: 10px 0 20px 20px;
+	
+}
+
+img{
+	height: 150px;
+}
+
+footer{
+	background-color: #E64A19;
+	color: white;
+	
+}
